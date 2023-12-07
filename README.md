@@ -33,10 +33,10 @@ spring-boot-registration-login
 
 1. Clone the repository:
 
-  ```bash
-   git clone https://github.com/Monishgithub123/REGISTRATION-LOGIN-PAGE.git
-  
-  2. Open the project in IntelliJ IDEA.
+
+
+
+2. Open the project in IntelliJ IDEA.
 
 3.Configure MySQL database in application.properties:
 
