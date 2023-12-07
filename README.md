@@ -49,16 +49,21 @@ spring.datasource.password=your_password
 5.Access the application at http://localhost:8080.
 
 
-Usage
-Register: Navigate to the registration page and fill in the required details.
-Login: Once registered, log in with your credentials.
-Access Protected Resources: Certain pages or features may be protected and accessible only to logged-in users.
+Usage:-
+1.Register: Navigate to the registration page and fill in the required details.
+2.Login: Once registered, log in with your credentials.
+3.Access Protected Resources: Certain pages or features may be protected and accessible only to logged-in users.
 
-Dependencies
-Spring Boot Web
-Spring Boot Data JPA
-MySQL Connector
-Thymeleaf (for the frontend)
-Spring security
-Contributing
+Dependencies:-
+1.Spring Boot Web
+2.Spring Boot Data JPA
+3.MySQL Connector
+4.Thymeleaf (for the frontend)
+5.Spring security
+
+
+
+
+
+Contributing:-
 Feel free to contribute to the project by forking and submitting a pull request. Bug reports and feature requests are welcome!
