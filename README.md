@@ -45,7 +45,9 @@ spring.datasource.username=your_username
 spring.datasource.password=your_password
 
 
-4.Run the application using IntelliJ or with Maven:
+4.Run the application using IntelliJ or with Maven.
+
+
 5.Access the application at http://localhost:8080.
 
 
