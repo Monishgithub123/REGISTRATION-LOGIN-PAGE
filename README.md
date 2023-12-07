@@ -1,17 +1,64 @@
-# YouTube Tutorial Series - Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL
+# Spring Boot Registration Login Page
 
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 1 at https://youtu.be/Hk70e7KR290
+## Overview
 
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 2 at https://youtu.be/JE7KaTIF1Z4
+This project is a simple registration and login system built using Spring Boot and MySQL. It allows users to register, log in, and access protected resources.
 
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 3 at https://youtu.be/VqitTIMG5uI
+## Technologies Used
 
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 4 at https://youtu.be/uS8zA3W8p5s
+- **Spring Boot**: Framework for building Java-based enterprise applications.
+- **MySQL**: Relational database for storing user information.
+- **IntelliJ IDEA**: Integrated development environment used for coding and project management.
 
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 5 at https://youtu.be/hPCynjmapSo
+## Project Structure
 
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 6 at https://youtu.be/hE_STc3eWzE
+spring-boot-registration-login
+|-- src
+| |-- main
+| |-- java
+| |-- net.javaguides.springboot
+| |-- config
+| |-- model
+| |-- repository
+| |-- service
+| |-- SpringBootRegistrationLoginApplication.java
+|-- src
+| |-- main
+| |-- resources
+| |-- application.properties
+|-- pom.xml
 
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 7 at https://youtu.be/Tu3lBxlFBlM
 
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 8 at https://youtu.be/KKjKFLKlCbc
+## Setup Instructions
+
+1. Clone the repository:
+
+   ```bash
+
+  
+  2. Open the project in IntelliJ IDEA.
+
+3.Configure MySQL database in application.properties:
+
+spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+
+
+4.Run the application using IntelliJ or with Maven:
+5.Access the application at http://localhost:8080.
+
+
+Usage
+Register: Navigate to the registration page and fill in the required details.
+Login: Once registered, log in with your credentials.
+Access Protected Resources: Certain pages or features may be protected and accessible only to logged-in users.
+
+Dependencies
+Spring Boot Web
+Spring Boot Data JPA
+MySQL Connector
+Thymeleaf (for the frontend)
+Spring security
+Contributing
+Feel free to contribute to the project by forking and submitting a pull request. Bug reports and feature requests are welcome!
